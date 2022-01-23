@@ -8,11 +8,11 @@ public class desafio3 {
 
         Scanner ler = new Scanner(System.in);
 
-        System.out.println("Digite a nota:");
+        System.out.printf("Digite a nota:");
         nota = ler.nextInt();
 
         while (nota < 0 | nota > 10) {
-            System.out.println("Nota invalida! Digite novamente:");
+            System.out.printf("Nota invalida! Digite novamente:");
             nota = ler.nextInt();
        }
     }
