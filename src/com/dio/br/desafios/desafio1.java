@@ -2,7 +2,7 @@ package com.dio.br.desafios;
 
 import java.util.Scanner;
 
-public class desafios {
+public class desafio1 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         String nome;
